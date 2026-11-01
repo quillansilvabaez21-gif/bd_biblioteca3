@@ -6,28 +6,27 @@
 
 Este proyecto consiste en una aplicación CRUD desarrollada en Python que se conecta a una base de datos MySQL para gestionar la información de una biblioteca.
 
-El sistema permite crear, consultar, actualizar y eliminar registros relacionados con socios, bibliotecarios, autores, editoriales, géneros literarios, libros, ejemplares físicos y préstamos.
+El sistema permite crear, consultar, actualizar y eliminar registros relacionados con socios, bibliotecarios, autores, editoriales, géneros, libros, ejemplares y préstamos.
 
 ## Funcionalidades
 
 - **Socios:** registrar, consultar, modificar y eliminar socios.
-- **Bibliotecarios:** administrar los datos del personal responsable.
-- **Autores:** registrar y administrar autores.
-- **Editoriales:** registrar y administrar editoriales.
-- **Géneros:** administrar los géneros literarios.
-- **Libros:** registrar libros y consultar sus datos junto con su editorial y género.
-- **Ejemplares:** administrar los ejemplares físicos, su estado y ubicación.
+- **Bibliotecarios:**  registrar, consultar, modificar y eliminar bibliotecarios.
+- **Autores:**  registrar, consultar, modificar y eliminar autores.
+- **Editoriales:**  registrar, consultar, modificar y eliminar editoriales.
+- **Géneros:**  registrar, consultar, modificar y eliminar generos.
+- **Libros:**  registrar, consultar, modificar y eliminar, datos junto con su editorial y género.
+- **Ejemplares:** administrar  registrar, consultar, modificar y elimiar. los ejemplares su estado y ubicación.
 - **Relación libro-autor:** asociar autores con los libros correspondientes.
 - **Préstamos:** registrar, consultar, modificar y eliminar préstamos. Al registrar un préstamo, el ejemplar cambia a estado `Prestado`; al eliminarlo, vuelve a `Disponible`.
 
-## Tecnologías utilizadas
+##  herramientas utilizadas
 
 - Python
 - MySQL
 - MySQL Connector/Python
-- python-dotenv
 - Clever Cloud (alojamiento de la base de datos)
-- Git y GitHub
+- GitHub
 
 ## Requisitos
 
