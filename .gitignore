@@ -1,0 +1,25 @@
+# Archivos de configuración y credenciales secretas (REQUISITO TP09)
+.env
+credenciales.env
+credenciales.txt
+config.py
+*.key
+
+# Entorno virtual de Python
+venv/
+env/
+ENV/
+.venv/
+
+# Archivos de caché e intérprete de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configuración de entornos de desarrollo / IDEs
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
